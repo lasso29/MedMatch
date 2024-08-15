@@ -15,13 +15,9 @@
     "formik": "^2.4.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-    "react-router-dom": "^6.26.0"
-=======
-    "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.26.0",
+    "react-hot-toast": "^2.4.1",
     "yup": "^1.4.0"
->>>>>>> b3bbc6976257fd61eaa86d28b6446199b529a2af
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

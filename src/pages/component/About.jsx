@@ -28,17 +28,10 @@ const About = () => {
           <div className="col-12 col-md-4 mb-4 mb-md-0">
             <div className="p-3">
               <div className="icon-container mb-3">
-                {/* Replace with your icon */}
-                <img
-                  src="path_to_icon"
-                  alt="Qualified Doctors"
-                  className="img-fluid"
-                />
               </div>
-              <h4>Accessibilities</h4>
+              <h4>Accessibility:</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipis sed do eiusmod
-                tempor incididunt ut labore.
+              Access medical resources and support anytime, anywhere.
               </p>
             </div>
           </div>
@@ -46,10 +39,9 @@ const About = () => {
           {/* Column 2 */}
           <div className="col-12 col-md-4 mb-4 mb-md-0">
             <div className="p-3">
-              <h4>24 Hours Service</h4>
+              <h4>Efficiency</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipis sed do eiusmod
-                tempor incididunt ut labore.
+              Quickly find the information and care you need with our streamlined interface.
               </p>
             </div>
           </div>
@@ -58,17 +50,21 @@ const About = () => {
           <div className="col-12 col-md-4">
             <div className="p-3">
               <div className="icon-container mb-3">
-                {/* Replace with your icon */}
-                <img
-                  src="path_to_icon"
-                  alt="Need Emergency"
-                  className="img-fluid"
-                />
               </div>
-              <h4>Need Emergency</h4>
+              <h4>24/7 Support</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipis sed do eiusmod
-                tempor incididunt ut labore.
+              Get help whenever you need it with round-the-clock assistance.
+              </p>
+            </div>
+          </div>
+
+          <div className="col-12 col-md-4">
+            <div className="p-3 shadow-sm rounded">
+              <div className="icon-container mb-3">
+              </div>
+              <h4>Certified Instructors</h4>
+              <p>
+              Learn from trusted and certified medical professionals dedicated to your success.
               </p>
             </div>
           </div>
@@ -76,17 +72,10 @@ const About = () => {
           <div className="col-12 col-md-4">
             <div className="p-3">
               <div className="icon-container mb-3">
-                {/* Replace with your icon */}
-                <img
-                  src="path_to_icon"
-                  alt="Need Emergency"
-                  className="img-fluid"
-                />
               </div>
-              <h4>Need Emergency</h4>
+              <h4>Collaboration Opportunities:</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipis sed do eiusmod
-                tempor incididunt ut labore.
+              Connect and collaborate with other professionals, researchers, and patients for a holistic learning and healthcare experience.
               </p>
             </div>
           </div>
@@ -94,35 +83,10 @@ const About = () => {
           <div className="col-12 col-md-4">
             <div className="p-3">
               <div className="icon-container mb-3">
-                {/* Replace with your icon */}
-                <img
-                  src="path_to_icon"
-                  alt="Need Emergency"
-                  className="img-fluid"
-                />
               </div>
-              <h4>Need Emergency</h4>
+              <h4>Up-to-Date Information:</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipis sed do eiusmod
-                tempor incididunt ut labore.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-12 col-md-4">
-            <div className="p-3">
-              <div className="icon-container mb-3">
-                {/* Replace with your icon */}
-                <img
-                  src="path_to_icon"
-                  alt="Need Emergency"
-                  className="img-fluid"
-                />
-              </div>
-              <h4>Need Emergency</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipis sed do eiusmod
-                tempor incididunt ut labore.
+                Stay informed with the latest medical news and research, ensuring you have access to current and reliable information.
               </p>
             </div>
           </div>
