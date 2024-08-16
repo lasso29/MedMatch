@@ -3,10 +3,10 @@
 } */
 /* #1463F3 #040023 */
 
-.carousel-item .cover{
+/* .carousel-item .cover{
   background: linear-gradient(to left, #1462f363, #040023c2) !important;
-}
-
-/* .carousel-item .cover {
-  background: linear-gradient(to left, #1462f3 30%, #040023 70%) !important;
 } */
+
+.carousel-item .cover {
+  background: linear-gradient(to left, #1462f3 30%, #040023 70%) !important;
+}

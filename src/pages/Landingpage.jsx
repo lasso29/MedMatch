@@ -173,7 +173,7 @@ const Landingpage = () => {
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
+       <br />
       <About/>
       <LandingFooter />
     </div>
