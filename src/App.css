@@ -7,6 +7,10 @@
   background: linear-gradient(to left, #1462f363, #040023c2) !important;
 } */
 
-.carousel-item .cover {
+/* .carousel-item .cover {
   background: linear-gradient(to left, #1462f3 30%, #040023 70%) !important;
+} */
+
+.carousel-item .cover {
+  background: linear-gradient(to left, rgba(20, 98, 243, 0.8) 0%, rgba(20, 0, 35, 0.8) 100%) !important;
 }

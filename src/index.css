@@ -48,3 +48,64 @@
   color: #1463F3;
 }
 
+.list-unstyled{
+  color:#040023 ;
+}
+
+.list-unstyled:hover{
+  color:#1463F3 ;
+}
+
+
+/* SignUp Styling */
+.signUp-logo {
+  width: 250px !important;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .signUp-logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    max-width: 90%;
+    padding: 1rem; 
+  }
+}
+
+.form-control {
+  outline: none !important; 
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important;
+}
+
+
+.form-control:focus {
+  border-color: #1462f3 !important;
+  box-shadow: none !important;
+}
+
+/* Remove outline on focus for buttons */
+button {
+  outline: none !important; 
+  box-shadow: none !important;
+}
+
+button:focus {
+  border: 2px solid #1462f3 !important;
+  box-shadow: none !important; 
+}
+
+
+.SignUp-button{
+  background-color: #040023;
+  color: white;
+}
+
+.SignUp-button:hover{
+  background-color:#1462f3;
+  color: white;
+}

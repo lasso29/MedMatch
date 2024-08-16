@@ -5,6 +5,7 @@ import slidin1 from "../assets/images/sliding-one.jpg";
 import slidin2 from "../assets/images/sliding-two.jpg";
 import slidin3 from "../assets/images/sliding-three.jpg";
 import About from "./component/About";
+import SignUp from "./component/SignUp";
 const Landingpage = () => {
   return (
     <div>
@@ -40,6 +41,8 @@ const Landingpage = () => {
                   have everything you need to stay ahead in your medical journey
                 </p>
               </div>
+
+              
               <div className="h-75 pt-md-5 px-md-3 d-flex align-items-cen justify-content-center col-md-5 align-items-center">
                 <div
                   className="p-4 bg-white rounded shadow-lg"
@@ -119,6 +122,9 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
+
+
+          
           <div
             class="carousel-item border"
             style={{
@@ -131,9 +137,7 @@ const Landingpage = () => {
               className="w-100 h-100 d-flex justify-content-center align-items-center"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.63)" }}
             >
-              <h4 className="fs-2 text-white">
-                Medication Education Made Easy
-              </h4>
+              
             </div>
           </div>
           <div
@@ -176,6 +180,7 @@ const Landingpage = () => {
        <br />
       <About/>
       <LandingFooter />
+      <SignUp/>
     </div>
   );
 };
