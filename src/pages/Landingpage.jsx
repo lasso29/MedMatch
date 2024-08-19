@@ -6,6 +6,7 @@ import slidin2 from "../assets/images/sliding-two.jpg";
 import slidin3 from "../assets/images/sliding-three.jpg";
 import About from "./component/About";
 import SignUp from "./component/SignUp";
+import AcessPage from "./component/AcessPage";
 const Landingpage = () => {
   return (
     <div>
@@ -181,6 +182,7 @@ const Landingpage = () => {
       <About/>
       <LandingFooter />
       <SignUp/>
+      <AcessPage/>
     </div>
   );
 };
