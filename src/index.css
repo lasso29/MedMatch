@@ -109,3 +109,19 @@ button:focus {
   background-color:#1462f3;
   color: white;
 }
+
+@media (max-width: 576px) {
+  .text-information-small{
+    font-size: 18px !important;
+    margin: auto;
+  }
+  .text-information{
+    font-size: 30px !important;
+  }
+  .coverText{
+    position: relative;
+    padding: 30px !important;
+    top: 20%;
+  }
+}
+  

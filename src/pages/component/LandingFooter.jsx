@@ -9,7 +9,7 @@ import { FaSquareXTwitter,  FaSquareInstagram } from "react-icons/fa6";
 const LandingFooter = () => {
   return (
     <>
-  <footer className="landing-footer p-4 d-flex flex-column flex-md-row justify-content-between align-items-start mt-4">
+  <footer className="container landing-footer p-4 d-flex flex-column flex-md-row justify-content-between align-items-start mt-4">
   <div className="col-12 col-md-3 mb-4 mb-md-0 text-center text-md-start">
     <img src={logo} alt="Logo" className="w-50 w-md-25 mb-3" />
     <p>Your trusted source for medical education, resources, and patient care.</p>

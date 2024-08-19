@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from '../../assets/images/medvation-logo.png'
+import { Link } from "react-router-dom";
 const LandingNavBar = () => {
     const [pageMode, setPageMode] = useState('home')
   return (
@@ -50,19 +51,25 @@ const LandingNavBar = () => {
               </li>
             </ul>
             <form className="d-flex gap-2" role="search">
+              <Link to="/register">
               <button
                 className="btn text-white"
                 style={{ backgroundColor: "#040023 " }}
-              >
+                >
                 Sign-up
               </button>
+                </Link>
+
+                <Link to="/login">
+                
               <button
                 className="btn text-white"
                 style={{ backgroundColor: "#1463F3 " }}
                 type="submit"
-              >
-                Sign-in
+                >
+                Sign In
               </button>
+                </Link>
             </form>
           </div>
         </div>

@@ -5,20 +5,20 @@ import slidin1 from "../assets/images/sliding-one.jpg";
 import slidin2 from "../assets/images/sliding-two.jpg";
 import slidin3 from "../assets/images/sliding-three.jpg";
 import About from "./component/About";
-import SignUp from "./component/SignUp";
-import AcessPage from "./component/AcessPage";
+import AppointmentForm from "./component/AppointmentForm";
+
 const Landingpage = () => {
   return (
     <div>
       <LandingNavBar />
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div className="carousel-inner">
           <div
-            class="carousel-item active border"
+            className="carousel-item active border"
             style={{
               height: "90vh",
               backgroundImage: `url(${slidin1})`,
@@ -29,105 +29,25 @@ const Landingpage = () => {
               className="cover w-100 h-100 d-md-flex justify-content-center align-items-center"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.63)" }}
             >
-              <div className="text-center col-md-5 pt-5 pt-md-0">
+              <div className="text-center col-md-5 pt-5 pt-md-0 coverText container">
                 <h4
                   className="text-information text-white"
-                  style={{ fontSize: "35px" }}
+                  style={{ fontSize: "50px" }}
                 >
                   "Your Gateway to Comprehensive Medical Resources"
                 </h4>
-                <p className="text-information text-white fs-5">
-                  Explore a wealth of medical resources curated by experts in
-                  the field. From research papers to instructional videos, we
-                  have everything you need to stay ahead in your medical journey
+                <p className="text-information-small text-white fs-3">
+                  Welcome to our platform where medical specialists share their
+                  expertise and knowledge with the world. Whether you're a
+                  student, researcher, or patient, you'll find valuable
+                  resources tailored to your needs.
                 </p>
-              </div>
-
-              
-              <div className="h-75 pt-md-5 px-md-3 d-flex align-items-cen justify-content-center col-md-5 align-items-center">
-                <div
-                  className="p-4 bg-white rounded shadow-lg"
-                  style={{ width: "400px" }}
-                >
-                  <h5 className="text-center">Make an Appointment</h5>
-                  <form>
-                    <div className="row mb-3">
-                      <div className="col">
-                        <input
-                          type="text"
-                          className="form-control"
-                          placeholder="Jhon Doe"
-                        />
-                      </div>
-                      <div className="col">
-                        <input
-                          type="email"
-                          className="form-control"
-                          placeholder="example@gmail.com"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="row mb-3">
-                      <div className="col">
-                        <input
-                          type="tel"
-                          className="form-control"
-                          placeholder="+00 141 23 234"
-                        />
-                      </div>
-                      <div className="col">
-                        <input
-                          type="date"
-                          className="form-control"
-                          placeholder="dd/mm/yy"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="row mb-3">
-                      <div className="col">
-                        <select className="form-select">
-                          <option>Select department</option>
-                          <option>Cardiology</option>
-                          <option>Neurology</option>
-                          <option>Orthopedics</option>
-                        </select>
-                      </div>
-                      <div className="col">
-                        <select className="form-select">
-                          <option>Select Doctor</option>
-                          <option>Dr. John Smith</option>
-                          <option>Dr. Jane Doe</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div className="mb-3">
-                      <textarea
-                        className="form-control"
-                        rows="3"
-                        placeholder="Write something here..."
-                      ></textarea>
-                    </div>
-
-                    <button
-                      type="submit"
-                      className="btn w-100 text-white"
-                      style={{ backgroundColor: "#040023" }}
-                    >
-                      Check Available Doctors
-                    </button>
-                  </form>
-                </div>
               </div>
             </div>
           </div>
 
-
-          
           <div
-            class="carousel-item border"
+            className="carousel-item border"
             style={{
               height: "89vh",
               backgroundImage: `url(${slidin2})`,
@@ -135,14 +55,25 @@ const Landingpage = () => {
             }}
           >
             <div
-              className="w-100 h-100 d-flex justify-content-center align-items-center"
+              className="cover w-100 h-100 d-md-flex justify-content-center align-items-center"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.63)" }}
             >
-              
+              <div className="text-center col-md-5 pt-5 pt-md-0 coverText container">
+                <h4
+                  className="text-information text-white"
+                  style={{ fontSize: "50px" }}
+                >
+                 "Discover Expert-Curated Medical Resources to Elevate Your Knowledge and Stay Ahead in Your Field"
+                </h4>
+                <p className="text-information-small text-white fs-3">
+                Explore a wealth of medical resources curated by experts in the field. From research papers to instructional videos, we have everything you need to stay ahead in your medical journey.
+                </p>
+              </div>
             </div>
           </div>
+
           <div
-            class="carousel-item border"
+            className="carousel-item border"
             style={{
               height: "89vh",
               backgroundImage: `url(${slidin3})`,
@@ -150,39 +81,46 @@ const Landingpage = () => {
             }}
           >
             <div
-              className="w-100 h-100 d-flex justify-content-center align-items-center"
+              className="cover w-100 h-100 d-md-flex justify-content-center align-items-center"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.63)" }}
             >
-              <h4 className="fs-2 text-white">
-                Medication Education Made Easy
-              </h4>
+              <div className="text-center col-md-5 pt-5 pt-md-0 coverText container">
+                <h4
+                  className="text-information text-white"
+                  style={{ fontSize: "50px" }}
+                >
+                  "Your Trusted Source for the Latest Medical News and Healthcare Advancements"
+                </h4>
+                <p className="text-information-small text-white fs-3">
+                Stay informed with our regularly updated medical news section. Get insights into the latest advancements in healthcare and medicine.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
+        {/* <button
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button> */}
       </div>
-       <br />
-      <About/>
+      <br />
+      <About />
+      <AppointmentForm />
       <LandingFooter />
-      <SignUp/>
-      <AcessPage/>
     </div>
   );
 };
